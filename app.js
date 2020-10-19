@@ -37,10 +37,6 @@ app.get('*', (req, res, next) => {
   return next();
 });
 
-app.use('/api', projectRouter);
-app.use('/api', taskRouter);
-app.use('/api', authRouter);
-
 app.listen(process.env.PORT, () =>
   console.log(`running at port ${process.env.PORT}`)
 );
