@@ -11,13 +11,18 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cors({ origin: process.env.REACT_APP_URL }));
 
-const projectRouter = require('./routes/project.routes');
-const taskRouter = require('./routes/task.routes');
 const authRouter = require('./routes/auth.routes');
+const postRouter = require('./routes/post.routes');
+const commentRouter = require('./routes/comment.routes');
+const path = require('path');
 
 require('./configs/db.config');
 
 require('./configs/passport.config')(app);
+
+app.use('/api', authRouter);
+app.use('/api', postRouter);
+app.use('/api', commentRouter);
 
 const publicPath = path.join(__dirname, 'public');
 
