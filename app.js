@@ -27,7 +27,7 @@ const publicPath = path.join(__dirname, 'public');
 
 app.use(express.static(publicPath));
 
-app.get('*', (req, res, next) => {
+app.get('/', (req, res, next) => {
   const hostUrl = req.originalUrl;
   if (!hostUrl.includes('/api')) {
     console.log(hostUrl);
