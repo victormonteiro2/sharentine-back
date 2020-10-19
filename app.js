@@ -14,7 +14,6 @@ app.use(cors({ origin: process.env.REACT_APP_URL }));
 const authRouter = require('./routes/auth.routes');
 const postRouter = require('./routes/post.routes');
 const commentRouter = require('./routes/comment.routes');
-const path = require('path');
 
 require('./configs/db.config');
 
