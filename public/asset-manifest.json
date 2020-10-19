@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e4d1e57f.chunk.css",
+    "main.js": "/static/js/main.68365d88.chunk.js",
+    "main.js.map": "/static/js/main.68365d88.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7075ca4d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7075ca4d.js.map",
+    "static/css/2.2a86faee.chunk.css": "/static/css/2.2a86faee.chunk.css",
+    "static/js/2.b573567b.chunk.js": "/static/js/2.b573567b.chunk.js",
+    "static/js/2.b573567b.chunk.js.map": "/static/js/2.b573567b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.4d7a5aaf632834ae296090147b00be64.js": "/precache-manifest.4d7a5aaf632834ae296090147b00be64.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.2a86faee.chunk.css.map": "/static/css/2.2a86faee.chunk.css.map",
+    "static/css/main.e4d1e57f.chunk.css.map": "/static/css/main.e4d1e57f.chunk.css.map",
+    "static/js/2.b573567b.chunk.js.LICENSE.txt": "/static/js/2.b573567b.chunk.js.LICENSE.txt",
+    "static/media/MovieImg.svg": "/static/media/MovieImg.0398b0a5.svg",
+    "static/media/MusicImg.svg": "/static/media/MusicImg.9262e830.svg",
+    "static/media/camila.png": "/static/media/camila.125cf05c.png",
+    "static/media/howimg.svg": "/static/media/howimg.9a85d9c5.svg",
+    "static/media/initialimg.svg": "/static/media/initialimg.e5c4566d.svg",
+    "static/media/share.svg": "/static/media/share.e97754e2.svg",
+    "static/media/undraw_book_lover_mkck.svg": "/static/media/undraw_book_lover_mkck.cd21d399.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7075ca4d.js",
+    "static/css/2.2a86faee.chunk.css",
+    "static/js/2.b573567b.chunk.js",
+    "static/css/main.e4d1e57f.chunk.css",
+    "static/js/main.68365d88.chunk.js"
+  ]
+}
