@@ -1,30 +1,34 @@
-# sharentine-back
+### SHARENTINE
 
-## Setup
+We understand these are difficult times, due to quarantine we are spending way more time online, but also sometimes regular social media may be <i>too much</i>. Our idea is easy: share simple activities, such as a book you wanna read, a song/album you are listening to, or ask for movie recommendations.
+<br />
+<br />
+This the 3rd and final project from our full-time web development bootcamp at Ironhack.
+<br />
+<br />
+<strong>See the live website <a href="https://sharentine.herokuapp.com/">HERE</a>.</strong>
+<br />
+<br />
+And you can find the frontend repository <a href="https://github.com/CamilaFass/sharentine-front">here</a>.
 
-1. Go to project folder
+### Built with:
 
-> cd sharentine-back
+- MERN
+  - MongoDB
+  - Express
+  - ReactJS
+  - NodeJS
+- Passport
+- Javascript
+- Bootstrap
+- Heroku (deploy)
 
-2. Install Dependencies
+  <br>
 
-> npm run setup
+### Collaborators
 
-3. Create .env with following content
-
-````
-DB_URL=
-
-PORT=3000
-SECRET=AAA
-````
-
-## Run
-
-1. Start Server
-
-> npm start
-
-2. Open in url or using an Endpoint tester (postman)
-
-> http://127.0.0.1:3000/
+<a href="https://github.com/AruaMonteiro">Aruã Monteiro</a>
+<br />
+<a href="https://github.com/CamilaFass">Camila Fassarella</a>
+<br />
+<a href="https://github.com/victormonteiro2">Victor Monteiro</a>
